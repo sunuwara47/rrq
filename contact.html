@@ -1,0 +1,75 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="responsive.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <a href="index.html" class="logo">
+            <img src="./images/logo.png" width="80px" height="50px" alt="" />
+          </a>
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link"> Home </a>
+            </li>
+            <li class="nav-item">
+              <a href="rosters.html" class="nav-link"> Rosters </a>
+            </li>
+            <li class="nav-item">
+              <a href="org.html" class="nav-link"> Organization </a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link"> Contact </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="contact" id="contact">
+      <h1 class="page__heading">We would love to hear from you</h1>
+      <form name="contact_form">
+        <input type="text" placeholder="Full Name" id="fullname" required />
+        <input type="email" placeholder="E-mail" id="email" required />
+        <textarea
+          type="text"
+          id="message"
+          placeholder="Message"
+          required
+        ></textarea>
+        <button type="submit">Submit</button>
+      </form>
+      <p style="font-size: larger; text-align: center; color: orange;">
+        Contact Us
+      </p>
+      <div class="contact-details">
+        <div class="contact__left">
+          Phone: +62-21 5706 222<br /><br />
+
+          Fax: +62-21 5790 7002<br /><br />
+
+          Email: partnership@teamrrq.com<br /><br />
+        </div>
+        <div class="contact__right">
+          Midplaza 2, 24th Floor<br /><br />
+
+          Jl. Jend Sudirman Kav. 10-11<br /><br />
+
+          Jakarta 10220, Indonesia
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      &copy;
+      <strong style="color: orange;">Team RRQ Athena</strong>
+    </footer>
+
+    <script type="text/javascript" src="contact.js"></script>
+  </body>
+</html>

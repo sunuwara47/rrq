@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  background-color: black;
+  color: #fdfdfd;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-list {
+  float: right;
+  margin: 10px;
+}
+
+.nav-item {
+  display: inline;
+  padding: 10px;
+}
+
+.nav-item:hover .nav-link {
+  color: orange;
+  padding-bottom: 4px;
+  border-bottom: 2px solid orange;
+}
+
+.nav-link {
+  color: #fdfdfd;
+  font-size: 20px;
+}
+
+.page__heading {
+  color: orange;
+  font-size: 60px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+input {
+  border: none;
+  width: 96%;
+  height: 40px;
+  margin: 2%;
+  padding: 10px;
+  font-size: 20px;
+}
+
+#message {
+  border: none;
+  width: 96%;
+  height: 40px;
+  margin: 2%;
+  padding: 10px;
+  font-size: 16px;
+  height: 80px;
+}
+
+button {
+  display: block;
+  width: 96%;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  font-size: 22px;
+  margin: auto;
+  background-color: orange;
+  color: aliceblue;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: slategrey;
+}
+
+form {
+  margin-bottom: 40px;
+}
+
+.contact-details {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  text-align: center;
+}

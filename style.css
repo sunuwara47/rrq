@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  background-color: black;
+  color: #fdfdfd;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-list {
+  float: right;
+  margin: 10px;
+}
+
+.nav-item {
+  display: inline;
+  padding: 10px;
+}
+
+.nav-item:hover .nav-link {
+  color: orange;
+  padding-bottom: 4px;
+  border-bottom: 2px solid orange;
+}
+
+.nav-link {
+  color: #fdfdfd;
+  font-size: 20px;
+}
+
+.main {
+  background: linear-gradient(#020202, transparent),
+    url("images/bg.jpg") no-repeat center;
+  width: 100%;
+  height: 93vh;
+  background-position: center;
+  background-size: cover;
+  padding: 8%;
+}
+
+span {
+  display: block;
+  font-size: 90px;
+  text-align: center;
+  opacity: 1;
+}
+
+.section-head {
+  font-size: 40px;
+  text-align: center;
+  color: orange;
+}
+
+section {
+  margin-bottom: 100px;
+}
+
+.slider-img {
+  width: 140px;
+  height: 90px;
+}
+
+.slider {
+  width: 50%;
+  margin: 50px auto;
+}
+
+.slick-slide {
+  margin: 0px 20px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: orange;
+}
+
+.about__desc {
+  font-size: larger;
+  justify-content: center;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  text-align: center;
+}

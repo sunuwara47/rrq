@@ -1,0 +1,48 @@
+@media only screen and (max-width: 768px) {
+  .nav-item {
+    display: flexbox;
+    flex-flow: column;
+  }
+
+  .logo {
+    margin-left: 45%;
+  }
+
+  .cards {
+    flex-direction: column;
+  }
+
+  .slider {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  span {
+    font-size: 40px;
+  }
+
+  .cards {
+    display: block;
+  }
+
+  .card {
+    width: 92%;
+    /* height: 350px; */
+    margin: 4%;
+  }
+
+  th,
+  td {
+    padding: 0;
+    font-size: smaller;
+  }
+
+  .page__heading {
+    font-size: initial;
+  }
+
+  .contact-details {
+    display: block;
+  }
+}
